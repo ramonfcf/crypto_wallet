@@ -6,20 +6,25 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Coin.create!(
-   description:"Bitcoin",
-   acronym: "BTC",
-   url_image: "https://e7.pngegg.com/pngimages/261/204/png-clipart-bitcoin-bitcoin-thumbnail.png"
-)
+coins = [
+            {description:"Bitcoin",
+            acronym: "BTC",
+            url_image: "https://e7.pngegg.com/pngimages/261/204/png-clipart-bitcoin-bitcoin-thumbnail.png"
+            },
 
-Coin.create!(
-   description:"Etherium",
-   acronym: "ETH",
-   url_image: "https://img1.gratispng.com/20180410/juw/kisspng-ethereum-cryptocurrency-bitcoin-cash-tether-impact-5acceb0643a7c2.9049379315233789502771.jpg"
-)
+            {
+               description:"Etherium",
+               acronym: "ETH",
+               url_image: "https://img1.gratispng.com/20180410/juw/kisspng-ethereum-cryptocurrency-bitcoin-cash-tether-impact-5acceb0643a7c2.9049379315233789502771.jpg"
+            },
 
-Coin.create!(
-   description:"Dash",
-   acronym: "DASH",
-   url_image: "https://cryptologos.cc/logos/dash-dash-logo.png"
-)
+            {
+               description:"Dash",
+               acronym: "DASH",
+               url_image: "https://cryptologos.cc/logos/dash-dash-logo.png"
+            }
+]
+
+coins.each do |coin|
+   Coin.find_or_create_by!(coin)
+end
