@@ -1,6 +1,9 @@
 <h1>Seja Bem-Vindo!</h1>
 <p><strong><%= nome_aplicacao%></p></strong>
-<p><strong>Data</strong>: <%= (Date.today) %><p>
+<p><strong>Data</strong>: <%= I18n.l(Date.today) %><p>
+<p><%= I18n.t('hello')%></p>
+<p><%= t('hello')%></p>  
+<%# in the view you can omit the I18n and use just the method %>
 
 <%= render "menu" %>
 
