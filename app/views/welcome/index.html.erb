@@ -12,4 +12,4 @@
 
 <p>Meu nome é <strong><%= @nome %> </strong></p>
 
-<p>O idioma usado nessa aplicação é: <%=  I18n.locale == :en ? 'Inglês' : 'Português do Brasil' %></p>
+<p>O idioma usado nessa aplicação é: <%= t('actual_locale') %></p>
