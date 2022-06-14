@@ -10,6 +10,6 @@ class ApplicationController < ActionController::Base
          if I18n.locale != cookies[:locale]
             I18n.locale = cookies[:locale]
          end
+
       end
-   end
 end
