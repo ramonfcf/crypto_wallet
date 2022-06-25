@@ -15,8 +15,6 @@ Rails.application.config.assets.precompile += %w( welcome.js
                                                    mining_types.js
                                                    coins.js
                                                    cable.js
-                                                   jquery.js
-                                                   notify.js
                                                 )
 
 Rails.application.config.assets.precompile += %w( welcome.css
