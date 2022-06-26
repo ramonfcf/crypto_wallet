@@ -1,21 +1,14 @@
-<p> <%= link_to 'Português', root_path(locale: 'pt-BR') %> </p>
-<p> <%= link_to 'English', root_path(locale: 'en') %> </p>
+<div class="jumbotron">
+  <h1 class="display-4">Seja Bem Vindo!!</h1>
+  <p class="lead">Esse é o Cripto Wallet, um app para você cadastrar suas criptomoedas.</p>
+  <hr class="my-4">
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+  <p class="lead">
+  </p>
+</div>
 
-<h1>Seja Bem-Vindo!</h1>
-<p><strong><%= nome_aplicacao%></p></strong>
 <p><strong>Data</strong>: <%= I18n.l(Date.today) %><p>
-<p><%= I18n.t('hello')%></p>
-<p><%= t('hello')%></p>  
-<%# in the view you can omit the I18n and use just the method %>
 
 <%= render "menu" %>
 
-<p>Você está em ambiente de <strong><%= ambiente_rails %></strong>
-</p>
-
-<p>Meu nome é <strong><%= @nome %> </strong></p>
-
 <p>O idioma usado nessa aplicação é: <%= t('actual_locale') %></p>
-
-<p>Teste de Cookies: <%= cookies[:nome] %> </p>
-<p>Teste de Sessions: <%= cookies[:nome] %> </p>
