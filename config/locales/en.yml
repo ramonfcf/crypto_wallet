@@ -43,3 +43,6 @@ en:
     welcome: "This is Crypto Wallet, an app for you to register your cryptocurrencies."
     nav: "Browse the buttons below."
     confirm: "Are you sure?"
+  coin:
+    new: "New Coin"
+    edit: "Edit Coin"

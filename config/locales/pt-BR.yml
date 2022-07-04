@@ -12,3 +12,6 @@ pt-BR:
     welcome: "Esse é o Cripto Wallet, um app para você cadastrar suas criptomoedas."
     nav: "Navegue pelos botões abaixo"
     confirm: "Tem certeza?"
+  coin:
+    new: "Nova Moeda"
+    edit: "Editar Moeda"
