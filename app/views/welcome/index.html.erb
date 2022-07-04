@@ -1,14 +1,8 @@
 <div class="jumbotron">
-  <h1 class="display-4">Seja Bem Vindo!!</h1>
-  <p class="lead">Esse é o Cripto Wallet, um app para você cadastrar suas criptomoedas.</p>
+  <h1 class="display-4"><%= t('welcome')%></h1>
+  <p class="lead"><%= t('messages.welcome')%></p>
   <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <p class="lead">
-  </p>
+  <p class="lead"><%= t('messages.nav')%></p>
+<%= render "menu" %>
 </div>
 
-<p><strong>Data</strong>: <%= I18n.l(Date.today) %><p>
-
-<%= render "menu" %>
-
-<p>O idioma usado nessa aplicação é: <%= t('actual_locale') %></p>

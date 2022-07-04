@@ -1,8 +1,12 @@
 pt-BR:
-  actual_locale: "Português do Brasil"
+  current_locale: "Português do Brasil"
   hello: "Olá Mundo"
   links:
     edit: "Editar"
     show: "Mostrar"
     delete: "Deletar"
     back: "Voltar"
+  welcome: "Bem Vindo!!"
+  messages:
+    welcome: "Esse é o Cripto Wallet, um app para você cadastrar suas criptomoedas."
+    nav: "Navegue pelos botões abaixo"
