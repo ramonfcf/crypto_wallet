@@ -6,7 +6,9 @@ pt-BR:
     show: "Mostrar"
     delete: "Deletar"
     back: "Voltar"
+    new: "Novo"
   welcome: "Bem Vindo!!"
   messages:
     welcome: "Esse é o Cripto Wallet, um app para você cadastrar suas criptomoedas."
     nav: "Navegue pelos botões abaixo"
+    confirm: "Tem certeza?"

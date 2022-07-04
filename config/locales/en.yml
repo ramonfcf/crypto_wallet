@@ -37,7 +37,9 @@ en:
     show: "Show"
     delete: "Delete"
     back: "Back"
+    new: "New"
   welcome: "Welcome!!"
   messages:
     welcome: "This is Crypto Wallet, an app for you to register your cryptocurrencies."
     nav: "Browse the buttons below."
+    confirm: "Are you sure?"
