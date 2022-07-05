@@ -46,3 +46,6 @@ en:
   coin:
     new: "New Coin"
     edit: "Edit Coin"
+  mining:
+    new: "New Mining Type"
+    edit: "Edit Mining Type"

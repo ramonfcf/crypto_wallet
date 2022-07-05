@@ -15,3 +15,6 @@ pt-BR:
   coin:
     new: "Nova Moeda"
     edit: "Editar Moeda"
+  mining:
+    new: "Novo tipo de Moeda"
+    edit: "Editar Tipo de Moeda"
