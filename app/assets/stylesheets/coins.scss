@@ -1,3 +1,13 @@
 // Place all the styles related to the Coins controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.btn {
+    margin-top: 8px;
+}
+
+.form-group {
+    > label {
+        font-weight: 500;
+    }
+}
